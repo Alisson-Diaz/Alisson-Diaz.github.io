@@ -1,0 +1,119 @@
+
+
+
+<!-- carrusel-->
+
+
+img {
+    width: 670px;
+}
+body{
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:lightblue;
+}
+
+<!-- carrusel-->
+body{
+ 
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  
+}
+
+.slider-box{
+    width: 350px;
+    height: 350px;
+    margin: 50px auto 0;
+    overflow: hidden;
+
+}
+
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 15s infinite alternate ease-in-out;
+}
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.slider-box{
+    width: 100% ;
+}
+
+@keyframes slide{
+    0%{margin-left:  0;}
+    700%{margin-left:  0;}
+
+    25%{margin-left:  -100%;}
+    700%{margin-left:  -100%;}
+
+    50%{margin-left:  -200%;}
+    700%{margin-left:  -200%;}
+
+    75%{margin-left:  -300%;}
+    700%{margin-left:  -300%;}
+
+}
+@media (max-width:991px){
+    body{
+        padding: 30px;
+    }
+    .slider-box{
+
+        width:100px;
+    }
+}
+ 
+
+<!-- imagen texto-->
+h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    }
+
+
+.ellinch{
+    margin-left: 15px;
+    
+    display: flex;
+}
+  
+.foto {
+
+    margin-left: 25px;
+}
+
+h3{
+    margin-left: 50px;
+}
+
+
+.text-4xl {
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 15px; 
+}
+
+.tofu{
+    margin-left: 35px;
+    margin-top: 15px;
+    
+}
+
+
+
+
